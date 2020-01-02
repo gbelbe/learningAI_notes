@@ -215,6 +215,10 @@ Backpropagation is the process of passing the error from the last Layer through 
 => adjust the weight and biases accordingly to minimize the cost function
 
 
+https://www.miximum.fr/blog/introduction-au-deep-learning-2/
+
+https://www.youtube.com/watch?v=6BMwisTZFr4&t=17s
+
 
 
 Data normalization:
