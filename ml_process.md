@@ -195,6 +195,10 @@ Adam : one of the best gradient descent algorithm ==> adaptative and optimized w
 
 (n dimensions vectors = tensors)
 
+Une fois que l'on a calculé le gradient (la dérivée) de la fonction de coût) on a sa pente. Comme l'objectif est d'arriver à son minimum, l'algorithme du gradient descent 
+augmente progressivement un petit peu des poids si le gradient est négatif. (la pente descend, on s'approche du minimum)
+Si le gradient est positif, on "réduit un peu le poids" (la pente augmente: on augmente l'erreur au fur et a mesure que l'on augmente le poids de la fonction du neurone) 
+
 
 
 ## maximum likelihood estimation:
@@ -218,6 +222,11 @@ Backpropagation is the process of passing the error from the last Layer through 
 https://www.miximum.fr/blog/introduction-au-deep-learning-2/
 
 https://www.youtube.com/watch?v=6BMwisTZFr4&t=17s
+
+
+
+
+
 
 
 
