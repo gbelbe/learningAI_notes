@@ -84,7 +84,7 @@ Optimizer ==> c'est le mécanisme qui va optimiser la fonction de cout, donc sou
 optimizer =  torch.optim.SGD(model.parameters(), lr=0.001)
 
 lr = learning rate
-SGD stochastic gradient descent
+SGD stochastic gradient descent  (stochastic = random process)
 
 epochs: entire pass of the data set.
 on passe la première fois une epoch, on calcule l'erreur, on change les poids, puis on repasse une epochs avec les nouveaux poids, et ainsi de suite.
@@ -92,6 +92,32 @@ on passe la première fois une epoch, on calcule l'erreur, on change les poids, 
 On peut utiliser un array "losses" qui va enregistrer la valeur de "criterion" la fonction erreur après chaque epoch.
 
 C'est bien d'imprimer la valeur de la fonction d'erreur pour voir si elle converge après un certain nombre d'epochs. 
+
+
+
+# class Model:
+
+Pytorch utilise une classe pour définir un modèle, pour la régression linéaire nous allons définir ce modèle par une classe:
+
+Note1: in python the syntax for a derived class definition looks like this: (class LinearRegModel inherited from class nn.module)
+
+
+Note2: the instantiation of a class creates an empty object, many classes like to create objects with instances customized to a specific initial state. 
+        the method: __init__(params)        ==> enables to specify a specific initial state. When the class is being instantiated, this method is automatically run
+
+Note3: super()
+        super().  ==>Return a proxy object that delegates method calls to a parent or sibling class of type. 
+                        This is useful for accessing inherited methods that have been overridden in a class.
+
+
+class LinearRegModel(nn.module):
+    
+    __init__(self, input_dim, output_dim):
+        
+
+    
+
+
 
 
 
