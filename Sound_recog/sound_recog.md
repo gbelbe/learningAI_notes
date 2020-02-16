@@ -1,4 +1,10 @@
 
+Audio fingerprinting:
+
+https://stackoverflow.com/questions/57151674/detecting-a-specific-pattern-from-a-fft-in-arduino
+
+
+
 
 1) feature extraction:
 
